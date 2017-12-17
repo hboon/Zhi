@@ -1,0 +1,41 @@
+##m1=20
+celf.left = v1.left
+v1.right = v2.left
+celf.right = v2.right
+celf.top = v1.top
+celf.bottom = v1.bottom
+celf.top = v2.top
+celf.bottom = v2.bottom
+
+v1.width = v2.width
+
+sb.top = v1.topMargin
+V:[sb]-m1-[l]-m1-[p(==40)]-m1-[s]-m1-[sl]-m1-[st]
+H:|[sb]|
+H:|[l(==v1)]
+H:[p(==v2)]|
+H:|[s]
+H:[sl(==v2)]|
+H:|[st]
+
+#Should only use the following during development only. Keep the .styles for Auto Layout only
+
+sb.placeholder = Enter Keyword
+p.progress = 0.3
+s.on = true
+sl.value = 0.4
+st.tintColor = red
+
+celf.backgroundColor = green
+v1.backgroundColor = rgb(211, 215, 207)
+v2.backgroundColor = rgb(204, 0, 0)
+
+l.text = This is a multi-line label
+l.numberOfLines = 0
+l.color = white
+l.backgroundColor = black
+#l.textStyle = title1
+l.fontName = Copperplate-Light
+#l.fontName = Verdana
+#l.fontName = Thonburi
+l.fontSize = 30

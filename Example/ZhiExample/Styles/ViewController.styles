@@ -1,0 +1,51 @@
+#This is a comment
+#This sets metrics that can be used below
+##m1=80
+
+#Use Auto Layout Visual Format Language:
+H:|[v1][v2]-m1-|
+V:|[v1]|
+V:|[v2]|
+
+#Or alternative format:
+#celf.left = v1.left
+#v1.right = v2.left
+#celf.right = v2.right + 20
+#celf.top = v1.top
+#celf.bottom = v1.bottom
+#celf.top = v2.top
+#celf.bottom = v2.bottom
+
+v1.width = v2.width*2
+
+l.left = celf.leftMargin
+l.top = celf.topMargin
+
+i.left = l.left
+i.right = v1.rightMargin
+V:|-70-[i]
+i.width = i.height
+
+b.left = celf.left + 30
+b.top = celf.top + 300
+
+#The following should only be used during development only. Keep the .styles for Auto Layout only
+
+celf.backgroundColor = rgb(255, 59, 48)
+v1.backgroundColor = rgb(90, 200, 250)
+v2.backgroundColor = rgb(76, 217, 100)
+
+l.text = Image:
+l.color = rgb(0, 138, 0)
+l.backgroundColor = rgb(100, 204, 0)
+
+i.backgroundColor = gray
+i.contentMode = scaleAspectFill
+i.clipsToBounds = true
+i.image = color.jpeg
+#i.image = dark.jpeg
+
+b.color = rgb(255, 0, 0)
+b.title = Tap Me
+b.enabled = true
+b.textStyle = largeTitle

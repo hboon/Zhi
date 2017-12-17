@@ -1,0 +1,19 @@
+PODS:
+  - KZFileWatchers (1.0.4)
+  - Zhi (0.0.1):
+    - KZFileWatchers
+
+DEPENDENCIES:
+  - Zhi (from `../`)
+
+EXTERNAL SOURCES:
+  Zhi:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KZFileWatchers: f7caa7aafa6068654b83c192ec363321c995184a
+  Zhi: cc8b8872d669d7e6bbed22ee2de2fc3499a35a30
+
+PODFILE CHECKSUM: f1c267a431fe45faeaa7b37bcee39624bfe9d884
+
+COCOAPODS: 1.3.1
